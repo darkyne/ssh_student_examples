@@ -1,0 +1,34 @@
+accessible: true
+author: ''
+categories: []
+contact_url: ''
+context: |-
+    This time, "delete_me.txt" is already present in the student directory.
+    We ask you to remove this file.
+
+    -Connect with SSH
+
+    -Remove the file in the student directory
+
+    -Exit
+environment_id: default
+environment_parameters:
+    limits:
+        time: '30'
+        hard_time: ''
+        memory: '100'
+    network_grading: 'on'
+    run_cmd: ''
+environment_type: docker
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+name: Delete a file
+network_grading: false
+problems: {}
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

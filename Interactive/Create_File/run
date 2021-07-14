@@ -1,0 +1,8 @@
+#!/bin/bash
+ssh_student
+
+if [ -f /task/student/hello.txt ]; then
+	feedback-result success
+else
+	feedback-result failed
+fi

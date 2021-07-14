@@ -1,0 +1,13 @@
+#!/bin/bash
+ssh_student --setup-script "python3 student/start.py"
+
+total_number_files=$(ls student | wc -l)
+number_correct_files=$(ls -1q student/save_me*.txt | wc -l)
+
+if [ $total_number_files = $number_correct_files ] && [ $number_correct_files -ge 50 ]; then
+	feedback-result success
+else
+	feedback-result failed
+fi
+
+#The solution to remove all the files except the correct ones coule be: rm $(ls -I "save_me*.txt" )

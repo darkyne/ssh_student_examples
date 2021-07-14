@@ -1,0 +1,35 @@
+accessible: true
+author: ''
+categories: []
+contact_url: ''
+context: |-
+    Simply connect with ssh and go play around with some commands.
+    The teacher will be able to see all the commands you used !
+
+    Actually this task will simply set result to success if some logs were generated!
+    But of course as a teacher you may use these logs to understand what the student did.
+    Or you could even automatically search for some specific commands in the logs.
+
+    Note that the log file is easy to read in a terminal with a simple "cat" command.
+    Here, the logs will be uggly printed as feedback for the example.
+environment_id: default
+environment_parameters:
+    limits:
+        time: '30'
+        hard_time: '300'
+        memory: '100'
+    network_grading: 'on'
+    run_cmd: ''
+environment_type: docker
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+name: Checking Logs
+network_grading: false
+problems: {}
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

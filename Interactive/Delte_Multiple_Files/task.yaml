@@ -1,0 +1,39 @@
+accessible: true
+author: ''
+categories: []
+contact_url: ''
+context: |-
+    This times, there are many different files in the student directory !
+    The correct files are txt files containing "save_me" in their name.
+
+    We ask you to remove all the other files.
+
+
+    -Connect with SSH
+
+    -Delete, in the student directory, all the files which are not .txt or do not contain "save_me" in their names.
+
+    -Exit
+
+    Note: You only have 5 minutes so deleting files one by one is not an option !
+environment_id: default
+environment_parameters:
+    limits:
+        time: '30'
+        hard_time: '300'
+        memory: '100'
+    network_grading: 'on'
+    run_cmd: ''
+environment_type: docker
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+name: Delete Mutliple Files
+network_grading: false
+problems: {}
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

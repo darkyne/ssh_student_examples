@@ -1,0 +1,34 @@
+accessible: true
+author: ''
+categories: []
+contact_url: ''
+context: |
+    Your friend noticed his computer is having some very strange behaviours...
+    He is asking for your help to diagnose the issue.
+
+    Connect to his computer with SSH and try to figure out what is going on.
+
+    When you think you figured out whas is going on, try to fix his computer !!
+
+    You only have 3 minutes to resolve this mystery !
+environment_id: default
+environment_parameters:
+    limits:
+        time: '30'
+        hard_time: '180'
+        memory: '100'
+    network_grading: 'on'
+    run_cmd: ''
+environment_type: docker
+evaluate: best
+file: ''
+groups: false
+input_random: '0'
+name: What is going on?
+network_grading: false
+problems: {}
+stored_submissions: 0
+submission_limit:
+    amount: -1
+    period: -1
+weight: 1.0

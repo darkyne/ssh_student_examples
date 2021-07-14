@@ -1,0 +1,31 @@
+accessible: true
+name: Interactive
+description: Ce cours comporte quelques exercices interactifs offrant aux étudiants
+    un accès SSH pour entrer différentes commandes.
+admins: []
+tutors: []
+groups_student_choice: false
+allow_unregister: true
+allow_preview: false
+registration: true
+registration_password: null
+registration_ac: null
+registration_ac_list:
+- '  '
+is_lti: false
+lti_url: ''
+lti_keys: {}
+lti_send_back_grade: false
+task_dispenser: toc
+dispenser_data:
+-   config:
+        closed: false
+    id: tasks-list
+    rank: 0
+    tasks_list:
+        Background_Process: 3
+        Checking_Logs: 4
+        Create_File: 0
+        Delelte_File: 1
+        Delte_Multiple_Files: 2
+    title: Liste des exercices

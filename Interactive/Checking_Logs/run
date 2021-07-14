@@ -1,0 +1,12 @@
+#!/bin/bash
+ssh_student
+
+
+if [ -f /task/student/.ssh_logs ]; then
+	logs=$(cat /task/student/.ssh_logs)
+    feedback-msg -em "Here are your logs: $logs"
+	feedback-result success
+else
+	feedback-msg -em "Looks like you removed your ssh logs !"
+	feedback-result failed
+fi

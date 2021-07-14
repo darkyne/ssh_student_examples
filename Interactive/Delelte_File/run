@@ -1,0 +1,8 @@
+#!/bin/bash
+ssh_student --setup-script "touch /task/student/delete_me.txt"
+
+if [ -f /task/student/delete_me.txt ]; then
+	feedback-result failed
+else
+	feedback-result success
+fi
