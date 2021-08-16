@@ -26,6 +26,6 @@ dispenser_data:
         Background_Process: 3
         Checking_Logs: 4
         Create_File: 0
-        Delelte_File: 1
-        Delte_Multiple_Files: 2
+        Delete_File: 1
+        Delete_Multiple_Files: 2
     title: Liste des exercices

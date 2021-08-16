@@ -1,5 +1,5 @@
 #!/bin/bash
-ssh_student --setup-script "python3 student/start.py"
+ssh_student --setup-script "python3 student/scripts/start.py"
 
 total_number_files=$(ls student | wc -l)
 number_correct_files=$(ls -1q student/save_me*.txt | wc -l)
